@@ -52,7 +52,6 @@ const server = http.createServer((req, res) => {
             res.end();
           });
         } else {
-          // Handle other routes or requests
           res.statusCode = 404;
           res.end();
         }

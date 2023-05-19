@@ -1,1 +1,1 @@
-This React app demonstrates a simple example of using Axios to send data to a Node.js API and storing it in a list. The app handles CORS the Node.js server, allowing it to be accessed from any domain.
+This is a simple Node.js application that creates a server and handles 3 different HTTP requests. The server serves a sample HTML file for the root path, returns a JSON object containing a user list for the /userlist path, and adds a new user to the list for the /adduser path.

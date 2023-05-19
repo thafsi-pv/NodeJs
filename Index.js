@@ -16,7 +16,7 @@ const { error } = require("console");
 
 //console.log(global)
 
-console.log(path.join(__dirname, "api", "script.js"));
+// console.log(path.join(__dirname, "api", "script.js"));
 
 // fs.mkdir(path.join(__dirname, "/api"), {}, (error) => {
 //   if (error) throw error;
@@ -29,12 +29,23 @@ console.log(path.join(__dirname, "api", "script.js"));
 //   }
 // );
 
-fs.appendFile(
-  path.join(__dirname, "api", "user.txt"),
-  "\n user name:Thafsi",
-  (error) => {
-    if (error) {
-      throw error;
-    }
-  }
-);
+// fs.appendFile(
+//   path.join(__dirname, "api", "user.txt"),
+//   "\n user name:Thafsi",
+//   (error) => {
+//     if (error) {
+//       throw error;
+//     }
+//   }
+// );
+
+// fs.rmdir(path.join(__dirname, "/api"), { recursive: true }, (err) => {
+//   if (err) throw err;
+// });
+
+
+// fs.mkdir(path.join(__dirname,'/api','userList.txt'),{},(err)=>{
+//     if (err) {
+//         throw err
+//     }
+// })

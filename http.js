@@ -16,11 +16,10 @@ const UserList = [
 const server = http.createServer((req, res) => {
   res.setHeader("Access-Control-Allow-Origin", "*");
   if (req.method === "OPTIONS") {
-    // Handle CORS preflight request
     //res.setHeader("Access-Control-Allow-Origin", "*");
     //res.setHeader("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE");
     res.setHeader("Access-Control-Allow-Headers", "Content-Type");
-    res.writeHead(204); // No content
+    res.writeHead(204);
     res.end();
   } else {
     switch (req.url) {

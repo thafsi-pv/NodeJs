@@ -10,9 +10,7 @@ const fs = require("fs");
 // })
 
 const UserList = [
-  { name: "abc", email: "abc@gmail.com" },
-  { name: "xyz", email: "xyz@hotmail.com" },
-  { name: "pqr", email: "pqr@gmail.com" },
+  { name: "abc", email: "abc@gmail.com" }
 ];
 
 const server = http.createServer((req, res) => {
